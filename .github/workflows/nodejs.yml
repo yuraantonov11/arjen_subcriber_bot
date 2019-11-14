@@ -24,4 +24,4 @@ jobs:
         npm test
       env:
         CI: true
-        BOT_TOKEN: 1002046907:AAHvjYyV6NOI293XHID7NsyC9IaDKA0jqA4
+        BOT_TOKEN: secrets.bot_token
