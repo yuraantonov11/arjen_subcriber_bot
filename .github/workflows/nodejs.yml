@@ -19,8 +19,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install and start
       run: |
-        npm ci
         npm run start --if-present
+        npm test
       env:
         CI: true
         BOT_TOKEN: 1002046907:AAHvjYyV6NOI293XHID7NsyC9IaDKA0jqA4
