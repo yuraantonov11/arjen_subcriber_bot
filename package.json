@@ -2,7 +2,11 @@
   "name": "arjen_subcriber",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuraantonov11/arjen_subcriber_bot.git"
+  },
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
